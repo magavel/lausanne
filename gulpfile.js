@@ -50,7 +50,7 @@ gulp.task('css', function () {
 		})(err);
 		this.emit('end');
 	};
-  return gulp.src('./css/mon_site.scss')
+  return gulp.src('./css/style.scss')
     .pipe(plumber({errorHandler: onError}))
 	.pipe(sourcemaps.init())
     .pipe(sass({
@@ -129,7 +129,7 @@ var config       = {
 */
 		"symbol": {
 			"dest": ".",
-			"sprite": "sprite_symbol_pictos.svg",
+			"sprite": "sprite.svg",
 		}
 	}
 };
