@@ -1,0 +1,22 @@
+
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.page{
+  //width: 100%;
+  //height: 100px;
+  margin: auto;
+  background-color: $bgcColor;
+}
+.page h1{
+  color: $titrePage;
+}
+h1{
+  text-align: center;
+  line-height: 100px;
+
+}

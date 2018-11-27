@@ -1,0 +1,21 @@
+@media screen and (min-width: 992px){
+  #menuIcone{
+    display: none;
+  }
+  #menuText{
+    width: 100%;
+  }
+  #menuText ul{
+      display: flex;
+    justify-content: space-evenly;
+    li{
+      list-style: none;
+    }
+    .texteMenu{
+      visibility: visible;
+    }
+    .Icon{
+      visibility: visible;
+    }
+  }
+}
